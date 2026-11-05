@@ -1,0 +1,6 @@
+{
+  "version": "4.40",
+  "url": "TickAssist-Lite-4.40-update.zip",
+  "sha256": "ca1d30c693224bc34529a17a7bdc8a39e3c37d5627a88e2e8637b7e84153c3d3",
+  "notes": "Lite gets Incoming calls from MAX, Contact Type and Case number from MAX, and Call transfer switched on (an update patches the office defaults once). Device Types (Promax, ProOne, ProSensor, Server, Workstation, Romexis) and Reco Units (5810, 3600, 3620, 3630, 3650, 3660, T2 2250) are now fixed lists that only an update changes. Device Type, Reco Unit and the System Environment fields only take values from their list: a near miss such as 23 vs 23.1.0 offers a short pick list, and an environment value can join a list only if a linked Google Sheet has it (Settings > Lists > Import values from my sheets). Romexis counts as a software device for required fields."
+}
