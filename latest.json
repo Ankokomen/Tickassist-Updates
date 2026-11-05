@@ -1,6 +1,6 @@
 {
-  "version": "4.40",
-  "url": "TickAssist-Lite-4.40-update.zip",
-  "sha256": "ca1d30c693224bc34529a17a7bdc8a39e3c37d5627a88e2e8637b7e84153c3d3",
-  "notes": "Lite gets Incoming calls from MAX, Contact Type and Case number from MAX, and Call transfer switched on (an update patches the office defaults once). Device Types (Promax, ProOne, ProSensor, Server, Workstation, Romexis) and Reco Units (5810, 3600, 3620, 3630, 3650, 3660, T2 2250) are now fixed lists that only an update changes. Device Type, Reco Unit and the System Environment fields only take values from their list: a near miss such as 23 vs 23.1.0 offers a short pick list, and an environment value can join a list only if a linked Google Sheet has it (Settings > Lists > Import values from my sheets). Romexis counts as a software device for required fields."
+  "version": "5.0",
+  "url": "TickAssist-Lite-5.0-update.zip",
+  "sha256": "b2fe07caacc8ed2225827fcac50c961e006a83748e5298ee63adb3fc3208ef0a",
+  "notes": "TickAssist 5. Lite can export the day's session (tickets, photos, lists, macros) as a .db file for the full edition's Merge Databases (Ticket Repository > Export for full TickAssist). The update address defaults to https://github.com/Ankokomen/Tickassist-Updates. Romexis versions are exempt from sheet verification (free text with suggestions, added on save, left out of Import from sheets). A fresh copy starts with the Imaging Package sheet and its column mapping already set."
 }
